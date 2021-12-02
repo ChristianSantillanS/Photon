@@ -101,8 +101,8 @@ public class Photon {
 			//Precio
 			Click_u[0][5] = String.valueOf(df.format(tlr.nextInt(30, 70 + 1)));
 			System.out.println("\n------------------------------CLICK UNIDO COMPLETADO"+"------------------------------------------------------------------------");
-			System.out.print("Texto del anuncio "+(Click_u[0][0]) + "\n" +"Hora de ejecución "+ (Click_u[0][1]) + "\n" +"Query_id "+ (Click_u[0][2]) + "\n" +"Advertiser_id "+ (Click_u[0][3])
-					+ "\n"+"click_id " + (Click_u[0][4]) + "\n" +"Precio "+ (Click_u[0][5]));
+			System.out.print("Texto del anuncio: "+(Click_u[0][4] ) + "\n" +"Hora de ejecución: "+ (Click_u[0][0] ) + "\n" +"Query_id: "+ (Click_u[0][1] ) + "\n" +"Advertiser_id: "+ (Click_u[0][2] )
+					+ "\n"+"click_id: " + (Click_u[0][3]) + "\n" +"Precio: "+ (Click_u[0][5]));
 			Impresion_v.Crear_ticket(joiner, query_id,e_store,e_consultas,click_id,id_r1,idr,Click_u);
 		}
 	}
